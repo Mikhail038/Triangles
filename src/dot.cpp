@@ -13,9 +13,9 @@
 
 namespace Geometry
 {
-    Dot::Dot(double X, double Y) :
-        x(X),
-        y(Y)
+    Dot::Dot(double x_coord, double y_coord) :
+        x(x_coord),
+        y(y_coord)
     {}
 
     bool Dot::is_valid ()

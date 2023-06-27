@@ -11,4 +11,5 @@ add_executable(
     src/main.cpp
     src/dot.cpp
     src/segment.cpp
+    src/polygon.cpp
     )

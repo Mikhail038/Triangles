@@ -3,11 +3,13 @@
 //===============================================================================================================================================
 
 #include "dot.hpp"
+#include "polygon.hpp"
 #include "segment.hpp"
 
 //===============================================================================================================================================
 
 #include <cmath>
+#include <cstddef>
 #include <iostream>
 #include <iterator>
 
@@ -15,35 +17,46 @@
 
 namespace Geometry
 {
-    Segment::Segment(Dot first_dot, Dot second_dot) :
-        a(first_dot),
-        b(second_dot)
-    {
-    }
+    Polygon::Polygon() :
+        verticies(nullptr),
+        sides(nullptr),
+        number_of_dots(0)
+    {}
 
-    Segment::Segment(LengthT x_1, LengthT y_1, LengthT x_2, LengthT y_2) :
-        a{x_1, y_1},
-        b{x_2, y_2}
+    //-----------------------------------------------------------------------------------------------------------------------------------------------
+
+    void Polygon::add_vertice (Dot vertice)
     {
+
     }
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------
 
-    bool Segment::is_valid ()
+    bool Polygon::is_valid ()
     {
-        return (a.is_valid() && b.is_valid());
+        bool RetValue = true;
+
+        for (size_t cnt = 0; cnt != number_of_dots; ++cnt)
+        {
+            RetValue = RetValue && sides[cnt].is_valid();
+        }
+
+        return RetValue;
     }
 
-    void Segment::print ()
+    void Polygon::print ()
     {
-        std::cout << "A:: ";
-        a.print();
 
-        std::cout << "B:: ";
-        b.print();
+        for (size_t cnt = 0; cnt != number_of_dots; ++cnt)
+        {
+            std::cout << cnt << "::: " << std::endl;
+            sides[cnt].print();
+        }
 
         std::cout << std::endl;
     }
+
+    //-----------------------------------------------------------------------------------------------------------------------------------------------
 }
 
 //===============================================================================================================================================

@@ -6,20 +6,15 @@
 
 #include "dot.hpp"
 #include "segment.hpp"
+#include "polygon.hpp"
 
 //===============================================================================================================================================
 
 int main ()
 {
-    Geometry::Segment NewSegment{{}, {2,3}};
+    Geometry::Polygon NewPolygon{};
 
-    Geometry::Segment NewerSegment{1,2,3,4};
-
-    std::cout << NewSegment.is_valid() << std::endl;
-
-    NewSegment.print();
-
-    NewerSegment.print();
+    NewPolygon.print();
 }
 
 //===============================================================================================================================================
