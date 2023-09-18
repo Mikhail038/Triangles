@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgeometry.a CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o
+/usr/bin/ranlib libgeometry.a

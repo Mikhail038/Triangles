@@ -1,0 +1,4 @@
+/home/mikhail038/Work/Triangles/Build/CMakeFiles/Triangles.dir
+/home/mikhail038/Work/Triangles/Build/CMakeFiles/geometry.dir
+/home/mikhail038/Work/Triangles/Build/CMakeFiles/edit_cache.dir
+/home/mikhail038/Work/Triangles/Build/CMakeFiles/rebuild_cache.dir

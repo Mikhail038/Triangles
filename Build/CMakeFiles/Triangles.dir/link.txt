@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Triangles.dir/Source/main.cpp.o -o Triangles  libgeometry.a 
