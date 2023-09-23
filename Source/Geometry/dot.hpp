@@ -12,12 +12,13 @@ namespace Geometry
 
     struct Dot
     {
-        LengthT x;
-        LengthT y;
+        LengthT x_;
+        LengthT y_;
+        LengthT z_;
 
         //-----------------------------------------------------------------------------------------------------------------------------------------------
 
-        Dot(LengthT x_coord = NAN, LengthT y_coord = NAN);
+        Dot(LengthT x_coord = NAN, LengthT y_coord = NAN, LengthT z_coord = NAN);
 
         //-----------------------------------------------------------------------------------------------------------------------------------------------
 

@@ -13,19 +13,20 @@
 
 namespace Geometry
 {
-    Dot::Dot(double x_coord, double y_coord) :
-        x(x_coord),
-        y(y_coord)
+    Dot::Dot(double x_coord, double y_coord, double z_coord) :
+        x_(x_coord),
+        y_(y_coord),
+        z_(z_coord)
     {}
 
     bool Dot::is_valid ()
     {
-        return !(std::isnan(x) || std::isinf(x) || std::isnan(y) || std::isinf(y));
+        return !(std::isnan(x_) || std::isinf(x_) || std::isnan(y_) || std::isinf(y_));
     }
 
     void Dot::print ()
     {
-        std::cout << "x: " << x << " y: " << y << std::endl;
+        std::cout << "x: " << x_ << " y: " << y_ << std::endl;
     }
 }
 
