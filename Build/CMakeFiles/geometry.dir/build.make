@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mikhail038/Work/Triangles
+CMAKE_SOURCE_DIR = /home/mikhail038/Work/Vlados/Triangles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mikhail038/Work/Triangles/Build
+CMAKE_BINARY_DIR = /home/mikhail038/Work/Vlados/Triangles/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/geometry.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/geometry.dir/flags.make
 CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o: CMakeFiles/geometry.dir/flags.make
 CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o: ../Source/Geometry/dot.cpp
 CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o: CMakeFiles/geometry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail038/Work/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o -MF CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o.d -o CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o -c /home/mikhail038/Work/Triangles/Source/Geometry/dot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail038/Work/Vlados/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o -MF CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o.d -o CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o -c /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/dot.cpp
 
 CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail038/Work/Triangles/Source/Geometry/dot.cpp > CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/dot.cpp > CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.i
 
 CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail038/Work/Triangles/Source/Geometry/dot.cpp -o CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/dot.cpp -o CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.s
 
 CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o: CMakeFiles/geometry.dir/flags.make
 CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o: ../Source/Geometry/segment.cpp
 CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o: CMakeFiles/geometry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail038/Work/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o -MF CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o.d -o CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o -c /home/mikhail038/Work/Triangles/Source/Geometry/segment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail038/Work/Vlados/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o -MF CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o.d -o CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o -c /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/segment.cpp
 
 CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail038/Work/Triangles/Source/Geometry/segment.cpp > CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/segment.cpp > CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.i
 
 CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail038/Work/Triangles/Source/Geometry/segment.cpp -o CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/segment.cpp -o CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.s
 
 CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o: CMakeFiles/geometry.dir/flags.make
 CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o: ../Source/Geometry/polygon.cpp
 CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o: CMakeFiles/geometry.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail038/Work/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o -MF CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o.d -o CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o -c /home/mikhail038/Work/Triangles/Source/Geometry/polygon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail038/Work/Vlados/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o -MF CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o.d -o CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o -c /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/polygon.cpp
 
 CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail038/Work/Triangles/Source/Geometry/polygon.cpp > CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/polygon.cpp > CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.i
 
 CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail038/Work/Triangles/Source/Geometry/polygon.cpp -o CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail038/Work/Vlados/Triangles/Source/Geometry/polygon.cpp -o CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.s
 
 # Object files for target geometry
 geometry_OBJECTS = \
@@ -125,7 +125,7 @@ libgeometry.a: CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o
 libgeometry.a: CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o
 libgeometry.a: CMakeFiles/geometry.dir/build.make
 libgeometry.a: CMakeFiles/geometry.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail038/Work/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgeometry.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail038/Work/Vlados/Triangles/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgeometry.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/geometry.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geometry.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/geometry.dir/clean:
 .PHONY : CMakeFiles/geometry.dir/clean
 
 CMakeFiles/geometry.dir/depend:
-	cd /home/mikhail038/Work/Triangles/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikhail038/Work/Triangles /home/mikhail038/Work/Triangles /home/mikhail038/Work/Triangles/Build /home/mikhail038/Work/Triangles/Build /home/mikhail038/Work/Triangles/Build/CMakeFiles/geometry.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mikhail038/Work/Vlados/Triangles/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mikhail038/Work/Vlados/Triangles /home/mikhail038/Work/Vlados/Triangles /home/mikhail038/Work/Vlados/Triangles/Build /home/mikhail038/Work/Vlados/Triangles/Build /home/mikhail038/Work/Vlados/Triangles/Build/CMakeFiles/geometry.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry.dir/depend
 

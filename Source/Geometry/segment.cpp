@@ -21,9 +21,9 @@ namespace Geometry
     {
     }
 
-    Segment::Segment(LengthT x_1, LengthT y_1, LengthT x_2, LengthT y_2) :
-        a{x_1, y_1},
-        b{x_2, y_2}
+    Segment::Segment(LengthT x_1, LengthT y_1, LengthT z_1, LengthT x_2, LengthT y_2, LengthT z_2) :
+        a{x_1, y_1, z_1},
+        b{x_2, y_2, z_2}
     {
     }
 

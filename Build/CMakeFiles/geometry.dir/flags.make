@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mikhail038/Work/Triangles/Source -I/home/mikhail038/Work/Triangles/Source/Array -I/home/mikhail038/Work/Triangles/Source/Geometry -I/home/mikhail038/Work/Triangles/Array -I/home/mikhail038/Work/Triangles/Geometry
+CXX_INCLUDES = -I/home/mikhail038/Work/Vlados/Triangles/Source -I/home/mikhail038/Work/Vlados/Triangles/Source/Array -I/home/mikhail038/Work/Vlados/Triangles/Source/Geometry -I/home/mikhail038/Work/Vlados/Triangles/Array -I/home/mikhail038/Work/Vlados/Triangles/Geometry
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -g -D _DEBUG -ggdb3 -Wall -Wextra -Weffc++ -Waggressive-loop-optimizations -Wcast-align -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wfloat-equal -Wno-narrowing -Wno-old-style-cast -fcheck-new -fstack-protector -fsanitize=address -fsanitize=alignment -fsanitize=bounds -fsanitize=enum -fsanitize=float-cast-overflow -fsanitize=float-divide-by-zero -fsanitize=integer-divide-by-zero -fsanitize=leak -fsanitize=nonnull-attribute -fsanitize=null -fsanitize=object-size -fsanitize=return -fsanitize=returns-nonnull-attribute -fsanitize=signed-integer-overflow -fsanitize=undefined -fsanitize=unreachable -fsanitize=vptr -Og -std=gnu++20
 

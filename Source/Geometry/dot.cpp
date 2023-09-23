@@ -21,12 +21,12 @@ namespace Geometry
 
     bool Dot::is_valid ()
     {
-        return !(std::isnan(x_) || std::isinf(x_) || std::isnan(y_) || std::isinf(y_));
+        return !(std::isnan(x_) || std::isinf(x_) || std::isnan(y_) || std::isinf(y_) || std::isinf(z_) || std::isinf(z_));
     }
 
     void Dot::print ()
     {
-        std::cout << "x: " << x_ << " y: " << y_ << std::endl;
+        std::cout << "x: " << x_ << " y: " << y_ << " z: " << z_ << std::endl;
     }
 }
 

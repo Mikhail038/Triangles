@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mikhail038/Work/Triangles/Source/main.cpp" "CMakeFiles/Triangles.dir/Source/main.cpp.o" "gcc" "CMakeFiles/Triangles.dir/Source/main.cpp.o.d"
+  "/home/mikhail038/Work/Vlados/Triangles/Source/main.cpp" "CMakeFiles/Triangles.dir/Source/main.cpp.o" "gcc" "CMakeFiles/Triangles.dir/Source/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/mikhail038/Work/Triangles/Build/CMakeFiles/geometry.dir/DependInfo.cmake"
+  "/home/mikhail038/Work/Vlados/Triangles/Build/CMakeFiles/geometry.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

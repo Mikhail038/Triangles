@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mikhail038/Work/Triangles/Source/Geometry/dot.cpp" "CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o" "gcc" "CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o.d"
-  "/home/mikhail038/Work/Triangles/Source/Geometry/polygon.cpp" "CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o" "gcc" "CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o.d"
-  "/home/mikhail038/Work/Triangles/Source/Geometry/segment.cpp" "CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o" "gcc" "CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o.d"
+  "/home/mikhail038/Work/Vlados/Triangles/Source/Geometry/dot.cpp" "CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o" "gcc" "CMakeFiles/geometry.dir/Source/Geometry/dot.cpp.o.d"
+  "/home/mikhail038/Work/Vlados/Triangles/Source/Geometry/polygon.cpp" "CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o" "gcc" "CMakeFiles/geometry.dir/Source/Geometry/polygon.cpp.o.d"
+  "/home/mikhail038/Work/Vlados/Triangles/Source/Geometry/segment.cpp" "CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o" "gcc" "CMakeFiles/geometry.dir/Source/Geometry/segment.cpp.o.d"
   )
 
 # Targets to which this target links.
